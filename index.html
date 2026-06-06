@@ -159,7 +159,7 @@ nav ul li a:hover{color:var(--red);}
   .scroll-hint{display:none;}
 
   /* SECTIONS */
-  #s2,#s3,#s4,#s5,#s6,#s7,#s8{padding:64px 20px;}
+  #s2,#s3,#s4,#s5,#s5b,#s6,#s7,#s8{padding:64px 20px;}
 
   /* GRIDS → single column */
   .danger-grid,.cand-grid,.cond-grid{grid-template-columns:1fr;gap:40px;}
@@ -194,7 +194,8 @@ nav ul li a:hover{color:var(--red);}
   .cond-block{padding:28px 20px;}
 }
 
-@media(max-width:480px){
+.match-grid{grid-template-columns:1fr!important;}
+  @media(max-width:480px){
   .ops-grid{grid-template-columns:1fr;}
   .stat-boxes{grid-template-columns:1fr;}
   nav{padding:12px 16px;}
@@ -213,7 +214,7 @@ nav ul li a:hover{color:var(--red);}
     <li><a href="#s3">Candidature</a></li>
     <li><a href="#s4">Mode Ops</a></li>
     <li><a href="#s5">Chantiers</a></li>
-    <li><a href="#s6">Conditions</a></li>
+    <li><a href="#s5b">Match Day</a></li><li><a href="#s6">Conditions</a></li>
     <li><a href="#s7">Équipe</a></li>
     <li><a href="#s8">Engagement</a></li>
   </ul>
@@ -402,6 +403,51 @@ nav ul li a:hover{color:var(--red);}
 </section>
 
 <!-- ══ CONDITIONS ══ -->
+
+<!-- ══ EXPÉRIENCE MATCH ══ -->
+<section id="s5b">
+  <div style="max-width:1100px;margin:0 auto;">
+    <p class="s-tag fade-up">04b — Expérience match</p>
+    <h2 class="s-title fade-up" style="color:white;">Chaque match<br>à domicile,<br><em style="color:var(--red);font-style:normal;">une fête.</em></h2>
+    <p class="s-body fade-up" style="max-width:620px;margin-top:24px;margin-bottom:64px;">Les réseaux sociaux c'est bien. Mais l'attachement à un club, ça se construit dans la salle, un samedi soir, quand l'ambiance est là. Simple, basique — et ça ne coûte presque rien.</p>
+
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:3px;" class="match-grid">
+
+      <div style="background:var(--mid);padding:36px 28px;border-top:2px solid var(--red);" class="fade-up">
+        <div style="font-size:32px;margin-bottom:20px;">🎵</div>
+        <div style="font-family:'Bebas Neue',sans-serif;font-size:22px;letter-spacing:.03em;margin-bottom:10px;">Avant le match</div>
+        <ul style="list-style:none;display:flex;flex-direction:column;gap:12px;">
+          <li style="font-size:14px;color:rgba(255,255,255,0.55);line-height:1.6;display:flex;gap:12px;align-items:flex-start;"><span style="color:var(--red);margin-top:2px;flex-shrink:0;">→</span>Playlist qui monte en puissance dans la salle — l'ambiance commence avant le coup d'envoi</li>
+          <li style="font-size:14px;color:rgba(255,255,255,0.55);line-height:1.6;display:flex;gap:12px;align-items:flex-start;"><span style="color:var(--red);margin-top:2px;flex-shrink:0;">→</span>Annonce officielle des joueurs au micro avec nom et numéro</li>
+          <li style="font-size:14px;color:rgba(255,255,255,0.55);line-height:1.6;display:flex;gap:12px;align-items:flex-start;"><span style="color:var(--red);margin-top:2px;flex-shrink:0;">→</span>Présentation du sponsor du match — visibilité concrète pour nos partenaires</li>
+          <li style="font-size:14px;color:rgba(255,255,255,0.55);line-height:1.6;display:flex;gap:12px;align-items:flex-start;"><span style="color:var(--red);margin-top:2px;flex-shrink:0;">→</span>Partenariat ponctuel avec le twirling local pour un spectacle à la mi-temps</li>
+        </ul>
+      </div>
+
+      <div style="background:var(--mid);padding:36px 28px;border-top:2px solid var(--red);" class="fade-up">
+        <div style="font-size:32px;margin-bottom:20px;">🥁</div>
+        <div style="font-family:'Bebas Neue',sans-serif;font-size:22px;letter-spacing:.03em;margin-bottom:10px;">Pendant le match</div>
+        <ul style="list-style:none;display:flex;flex-direction:column;gap:12px;">
+          <li style="font-size:14px;color:rgba(255,255,255,0.55);line-height:1.6;display:flex;gap:12px;align-items:flex-start;"><span style="color:var(--red);margin-top:2px;flex-shrink:0;">→</span>Mise à disposition de tambours pour le public — le bruit, c'est le 7ème joueur</li>
+          <li style="font-size:14px;color:rgba(255,255,255,0.55);line-height:1.6;display:flex;gap:12px;align-items:flex-start;"><span style="color:var(--red);margin-top:2px;flex-shrink:0;">→</span>Encouragements organisés — même 20 personnes qui scandent ensemble, ça change tout</li>
+          <li style="font-size:14px;color:rgba(255,255,255,0.55);line-height:1.6;display:flex;gap:12px;align-items:flex-start;"><span style="color:var(--red);margin-top:2px;flex-shrink:0;">→</span>Buvette tenue par les parents — déjà en place, à valoriser et structurer</li>
+        </ul>
+      </div>
+
+      <div style="background:var(--mid);padding:36px 28px;border-top:2px solid var(--red);" class="fade-up">
+        <div style="font-size:32px;margin-bottom:20px;">🏆</div>
+        <div style="font-family:'Bebas Neue',sans-serif;font-size:22px;letter-spacing:.03em;margin-bottom:10px;">Les rituels</div>
+        <ul style="list-style:none;display:flex;flex-direction:column;gap:12px;">
+          <li style="font-size:14px;color:rgba(255,255,255,0.55);line-height:1.6;display:flex;gap:12px;align-items:flex-start;"><span style="color:var(--red);margin-top:2px;flex-shrink:0;">→</span>Trophée du joueur du match ou du mois — créer de la fierté individuelle</li>
+          <li style="font-size:14px;color:rgba(255,255,255,0.55);line-height:1.6;display:flex;gap:12px;align-items:flex-start;"><span style="color:var(--red);margin-top:2px;flex-shrink:0;">→</span>Une tradition propre au club — geste, cri, chant — que tout le monde reconnaît</li>
+          <li style="font-size:14px;color:rgba(255,255,255,0.55);line-height:1.6;display:flex;gap:12px;align-items:flex-start;"><span style="color:var(--red);margin-top:2px;flex-shrink:0;">→</span>Photo d'équipe systématique après chaque victoire à domicile — les souvenirs, ça fidélise</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 <section id="s6">
   <div style="max-width:1100px;margin:0 auto;">
     <p class="s-tag fade-up">05 — Transparence totale</p>
